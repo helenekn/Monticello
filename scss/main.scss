@@ -568,7 +568,7 @@ input:focus {
    @include flex(space-between, flex-start);
    padding-top: 300px;
    padding-bottom: 100px;
-   background: url("/assets/img/bcg_footer.png") center center/cover no-repeat;
+   background: url("../assets/img/bcg_footer.png") center center/cover no-repeat;
    margin-bottom: 20px;
    @media screen and (max-width: 1200px) {
       padding-top: 500px;
