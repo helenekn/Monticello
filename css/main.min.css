@@ -460,6 +460,13 @@ body {
             flex-direction: column;
   }
 }
+@media screen and (max-width: 768px) {
+  .navigation {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
 
 .burger {
   display: none;
