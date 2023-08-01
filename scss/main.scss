@@ -350,12 +350,20 @@ body {
    &_first {
       top: 18%;
       left: 20%;
+      @media screen and (max-width: 575px) {
+         top: 10%;
+         left: 5%;
+      }
    }
    &_second {
       top: 87%;
       right: 20%;
       background: $background_add_1;
       border: 2px solid $background_add_2;
+      @media screen and (max-width: 575px) {
+         top: 87%;
+         left: 5%;
+      }
    }
 }
 

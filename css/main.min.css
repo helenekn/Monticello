@@ -860,11 +860,23 @@ body {
   top: 18%;
   left: 20%;
 }
+@media screen and (max-width: 575px) {
+  .modal_first {
+    top: 10%;
+    left: 5%;
+  }
+}
 .modal_second {
   top: 87%;
   right: 20%;
   background: #55b7ff;
   border: 2px solid #7e5aff;
+}
+@media screen and (max-width: 575px) {
+  .modal_second {
+    top: 87%;
+    left: 5%;
+  }
 }
 
 .news {
