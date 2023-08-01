@@ -20,5 +20,14 @@ $(document).ready(function () {
       autoplaySpeed: 3000,
       dots: true,
       autoplay: true,
+
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 1,
+            },
+         },
+      ],
    });
 });
