@@ -187,6 +187,10 @@ body {
       font-size: 60px;
       font-weight: 600;
    }
+   @media screen and (max-width: 768px) {
+      font-size: 54px;
+      font-weight: 600;
+   }
 }
 
 .subtitle {
@@ -219,6 +223,9 @@ body {
    }
 }
 ////////----------project-----------/////////
+.projects {
+   position: relative;
+}
 .title {
    font-size: 44px;
    font-weight: 700;
@@ -312,6 +319,43 @@ body {
 .btn {
    @extend %btn;
 }
+
+.modal {
+   position: absolute;
+   width: 350px;
+   padding: 15px;
+   border: 2px solid $background_add_1;
+   border-radius: 10px;
+   background-color: $background_add_2;
+   display: none;
+   &__text {
+      margin-bottom: 15px;
+   }
+   &__btn {
+      padding: 5px 10px;
+      border: 2px solid $background_add_1;
+      border-radius: 10px;
+      background: $background_add_1;
+      &_second {
+         border: 2px solid $background_add_2;
+         background: $background_add_2;
+      }
+   }
+   &_active {
+      display: block;
+   }
+   &_first {
+      top: 18%;
+      left: 20%;
+   }
+   &_second {
+      top: 87%;
+      right: 20%;
+      background: $background_add_1;
+      border: 2px solid $background_add_2;
+   }
+}
+
 /////-------------news --------------///
 .news {
    background: url("../assets/img/Background_new.png") center center/cover

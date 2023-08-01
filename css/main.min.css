@@ -652,6 +652,12 @@ body {
     font-weight: 600;
   }
 }
+@media screen and (max-width: 768px) {
+  .title-main {
+    font-size: 54px;
+    font-weight: 600;
+  }
+}
 
 .subtitle {
   color: #fff;
@@ -696,6 +702,10 @@ body {
   .section {
     margin-bottom: 100px;
   }
+}
+
+.projects {
+  position: relative;
 }
 
 .title {
@@ -812,6 +822,42 @@ body {
   .content__adress {
     margin-bottom: 20px;
   }
+}
+
+.modal {
+  position: absolute;
+  width: 350px;
+  padding: 15px;
+  border: 2px solid #55b7ff;
+  border-radius: 10px;
+  background-color: #7e5aff;
+  display: none;
+}
+.modal__text {
+  margin-bottom: 15px;
+}
+.modal__btn {
+  padding: 5px 10px;
+  border: 2px solid #55b7ff;
+  border-radius: 10px;
+  background: #55b7ff;
+}
+.modal__btn_second {
+  border: 2px solid #7e5aff;
+  background: #7e5aff;
+}
+.modal_active {
+  display: block;
+}
+.modal_first {
+  top: 18%;
+  left: 20%;
+}
+.modal_second {
+  top: 87%;
+  right: 20%;
+  background: #55b7ff;
+  border: 2px solid #7e5aff;
 }
 
 .news {
