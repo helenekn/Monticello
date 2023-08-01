@@ -10,8 +10,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
    menuItem.forEach((item) => {
       item.addEventListener("click", () => {
-         hamburger.classList.toggle("burger_active");
+         burger.classList.toggle("burger_active");
          menu.classList.toggle("menu_active");
       });
    });
 });
+
+// let btn = document.querySelector(".content__btn");
+
+// btn.addEventListener('click', () => {
+
+// })
