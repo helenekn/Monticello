@@ -1,0 +1,29 @@
+%btn {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.2;
+   font-family: "Montserrat";
+   text-transform: uppercase;
+   color: $color_btn;
+   background: transparent;
+   border: 1px solid $color_main;
+   padding: 17px 40px;
+   @media screen and (max-width: 578px) {
+      display: block;
+      margin: 0 auto;
+   }
+   &:hover {
+      opacity: 0.5;
+      background: $background_add_1;
+   }
+   // &:focus {
+   //    color: $color_focus;
+   // }
+}
+
+%svg {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   border: 1px solid $color_add;
+}
